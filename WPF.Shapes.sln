@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Shapes", "WPF.Shapes\WPF.Shapes.csproj", "{C775AE5E-10E0-4A4D-96DF-BC3DE58BD465}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF.Shapes", "WPF.Shapes\WPF.Shapes.csproj", "{C775AE5E-10E0-4A4D-96DF-BC3DE58BD465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleAndEllipse", "RectangleAndEllipse\RectangleAndEllipse.csproj", "{F43C4CA9-9080-4AE8-9567-695924A0ABE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleAndEllipse", "RectangleAndEllipse\RectangleAndEllipse.csproj", "{F43C4CA9-9080-4AE8-9567-695924A0ABE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SizingAndPlacingShapes", "SizingAndPlacingShapes\SizingAndPlacingShapes.csproj", "{55DAAC6A-324D-4F4B-A58B-D6A0095FA96B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SizingAndPlacingShapes", "SizingAndPlacingShapes\SizingAndPlacingShapes.csproj", "{55DAAC6A-324D-4F4B-A58B-D6A0095FA96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScalingWithViewbox", "ScalingWithViewbox\ScalingWithViewbox.csproj", "{BEB8ACC3-E0D1-4837-A9B0-758F50846B21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineAndPolyLine", "LineAndPolyLine\LineAndPolyLine.csproj", "{5C58A431-586A-4ACF-969D-D67AF9391021}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineCapsJoins", "LineCapsJoins\LineCapsJoins.csproj", "{9072E2F1-4D0E-4A21-95A9-753D3AECEFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelSnapping", "PixelSnapping\PixelSnapping.csproj", "{1BED80CF-E907-45E1-BE7C-BB3EE67B1EDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{7ECFD298-3DA7-4AAB-826D-22B8F41736B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework", "Homework\Homework.csproj", "{9E80E1B6-564A-44B8-8B4C-DE1DFEE88714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +39,30 @@ Global
 		{55DAAC6A-324D-4F4B-A58B-D6A0095FA96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55DAAC6A-324D-4F4B-A58B-D6A0095FA96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55DAAC6A-324D-4F4B-A58B-D6A0095FA96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB8ACC3-E0D1-4837-A9B0-758F50846B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB8ACC3-E0D1-4837-A9B0-758F50846B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB8ACC3-E0D1-4837-A9B0-758F50846B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB8ACC3-E0D1-4837-A9B0-758F50846B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C58A431-586A-4ACF-969D-D67AF9391021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C58A431-586A-4ACF-969D-D67AF9391021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C58A431-586A-4ACF-969D-D67AF9391021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C58A431-586A-4ACF-969D-D67AF9391021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9072E2F1-4D0E-4A21-95A9-753D3AECEFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9072E2F1-4D0E-4A21-95A9-753D3AECEFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9072E2F1-4D0E-4A21-95A9-753D3AECEFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9072E2F1-4D0E-4A21-95A9-753D3AECEFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BED80CF-E907-45E1-BE7C-BB3EE67B1EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BED80CF-E907-45E1-BE7C-BB3EE67B1EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BED80CF-E907-45E1-BE7C-BB3EE67B1EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BED80CF-E907-45E1-BE7C-BB3EE67B1EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECFD298-3DA7-4AAB-826D-22B8F41736B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECFD298-3DA7-4AAB-826D-22B8F41736B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECFD298-3DA7-4AAB-826D-22B8F41736B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECFD298-3DA7-4AAB-826D-22B8F41736B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E80E1B6-564A-44B8-8B4C-DE1DFEE88714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E80E1B6-564A-44B8-8B4C-DE1DFEE88714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E80E1B6-564A-44B8-8B4C-DE1DFEE88714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E80E1B6-564A-44B8-8B4C-DE1DFEE88714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
